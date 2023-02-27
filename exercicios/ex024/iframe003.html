@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, natus tempora omnis inventore est eaque magnam! Atque, molestiae blanditiis, et iure quaerat eaque exercitationem veritatis magni illo quo animi incidunt?
+    </p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="quadro">Página 1</a></li>
+        <li><a href="paginas-extras/pag002.html" target="quadro">Página 2</a></li>
+        <li><a href="paginas-extras/pag003.html" target="quadro">Página 3</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla temporibus magni ipsam ratione consectetur? Tenetur ad esse porro iure dolor reiciendis tempore placeat delectus repellendus. Eligendi non suscipit consectetur pariatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi laboriosam quisquam totam aperiam eaque repellendus mollitia quaerat accusantium error, nobis praesentium, rerum voluptatum quo cum ipsum, doloribus veritatis perferendis.
+    </p>
+
+    <iframe id="tela" src="paginas-extras/pag001.html" name="quadro">
+        <p>Não compativel</p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptas unde dolore? Expedita voluptatem, quaerat autem neque nulla iste voluptate doloremque aliquam vitae? Cum, quam provident? Molestiae adipisci rerum non.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias odit illum explicabo exercitationem sunt modi, soluta assumenda qui deserunt atque ullam aliquid dolorem minima incidunt minus, quam laborum sed sapiente.
+    </p>
+
+    <iframe id="tela" srcdoc="<h1>Conteudo no iframe por codigo</h1> <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptas unde dolore? Expedita voluptatem, quaerat autem neque nulla iste voluptate doloremque aliquam vitae? Cum, quam provident? Molestiae adipisci rerum non.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias odit illum explicabo exercitationem sunt modi, soluta assumenda qui deserunt atque ullam aliquid dolorem minima incidunt minus, quam laborum sed sapiente.
+    </p> <img src='imagens/cursoemvideo.png'> ">
+        <p>Não compativel</p>
+    </iframe>
+</body>
+</html>
