@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+header {
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+section h2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+section p {
+    padding: 5px;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article > ul {
+    margin: 5px;
+    padding: 10px;
+}
+article > ul > li {
+    margin-left: 15px;
+}
+
+article > img {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    max-width: 80vw;
+    margin:  auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+img.float1 {
+    display: inline-block;
+    float: left;
+
+}
+
+img.float2 {
+    display: inline-block;
+    float: right;
+    
+}
